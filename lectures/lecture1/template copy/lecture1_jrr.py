@@ -40,5 +40,9 @@ def argmax(lst):
 
 values = [2, 3, -1, 7, 4]
 
-i = argmax(values)
-print(f"Index of max value: {i}")
+if __name__ == '__main__':
+    value = []
+    #values = [2, 3, -1, 7, 4]
+    i = argmax(values)
+    vmax = values[i]
+    print(f"Index of max value: {i}, which is {vmax}.")
